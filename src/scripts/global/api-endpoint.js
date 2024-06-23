@@ -1,4 +1,4 @@
-const CONFIG = { BASE_URL: 'https://backend-ww-six.vercel.app/' };
+const CONFIG = { BASE_URL: 'https://backend-ww-six.vercel.app/api/' };
 
 const API_ENDPOINT = {
   ARTICLES: `${CONFIG.BASE_URL}articles`,
