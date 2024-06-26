@@ -1,4 +1,4 @@
-const CONFIG = { BASE_URL: 'https://coba-backend-1.vercel.app/' };
+const CONFIG = { BASE_URL: 'https://backend-op-brown.vercel.app/api/' };
 
 const API_ENDPOINT = {
   ARTICLES: `${CONFIG.BASE_URL}/articles`,
