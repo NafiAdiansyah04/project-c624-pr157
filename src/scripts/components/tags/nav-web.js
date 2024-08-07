@@ -1,6 +1,31 @@
 class NavWeb extends HTMLElement {
   connectedCallback() {
     this.render();
+    this.addEventListeners();
+  }
+
+  addEventListeners() {
+    const navItems = this.querySelectorAll('.nav-link:not(.dropdown-toggle)');
+    const dropdownItems = this.querySelectorAll('.dropdown-item');
+    const navDropdown = this.querySelector('#navDropdown');
+
+    // Event listener untuk nav-link biasa
+    navItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        if (navDropdown.classList.contains('show')) {
+          navDropdown.classList.remove('show');
+        }
+      });
+    });
+
+    // Event listener untuk item di dalam dropdown
+    dropdownItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        if (navDropdown.classList.contains('show')) {
+          navDropdown.classList.remove('show');
+        }
+      });
+    });
   }
 
   render() {
@@ -10,9 +35,9 @@ class NavWeb extends HTMLElement {
     <!-- Logo Section -->
     <div class="navbar-brand">
       <img class="img-fluid" 
-           src="images/WW-logoTitle.png" 
-           alt="logo Wisata Wonders" 
-           width="145px" height="53px">
+          src="images/WW-logoTitle.png" 
+          alt="logo Wisata Wonders" 
+          width="145px" height="53px">
     </div>
 
     <!-- Navbar Toggler for Mobile View -->
