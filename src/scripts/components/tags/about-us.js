@@ -61,7 +61,7 @@ class AboutUs extends HTMLElement {
                 >
                 <div class="card-body">
                   <h5 class="card-title color-ww fw-bold mb-0">Moh.Alim Nafi' Adiansyah</h2>
-                  <p class="card-text medium text-lead pt-2 mb-1">Front-End</p>
+                  <p class="card-text medium text-lead pt-2 mb-1">Front-End & Back-End</p>
                 </div>
                 <div class="d-flex justify-content-center mt-4 mb-2">
                   <a href="#" target="_blank" class="px-2"><button type="button" class="btn btn-outline-green icons-size" tabindex="-1"><i class="fa fa-whatsapp"></i></button></a>
@@ -94,14 +94,14 @@ class AboutUs extends HTMLElement {
 
             <div class="col-xl-3 col-md-6 mb-5 px-0 px-sm-4 px-md-3 px-xl-2">
               <div class="card bg-white border border-3 rounded-card shadow-lg py-5 px-4 h-100">
-                <img src="images/andika.png" 
+                <img src="images/blank-profile.png" 
                   class="img-fluid rounded-circle border border-3 mx-auto mb-3 shadow-sm" 
                   alt="Profile1" 
                   width="130px" height="130px"
                 >
                 <div class="card-body">
                   <h5 class="card-title color-ww fw-bold mb-0">Andika Cahya Darmawan</h2>
-                  <p class="card-text medium text-lead pt-2 mb-1">Back-End</p>
+                  <p class="card-text medium text-lead pt-2 mb-1">-</p>
                 </div>
                 <div class="d-flex justify-content-center mt-4 mb-2">
                   <a href="#" target="_blank" class="px-2"><button type="button" class="btn btn-outline-green icons-size" tabindex="-1"><i class="fa fa-whatsapp"></i></button></a>
